@@ -1,0 +1,255 @@
+CUSTOMER FEEDBACK SENTIMENT ANALYSIS 
+
+ABSTRACT:
+
+Customer feedback plays an important role in understanding customer satisfaction and improving business services. Manually analyzing thousands of customer reviews is difficult and time-consuming. This project develops a Customer Feedback Sentiment Analysis System using Natural Language Processing (NLP) and Machine Learning techniques.
+The system classifies customer reviews into Positive or Negative sentiments based on review text. The project includes data cleaning, visualization, sentiment prediction, and dashboard creation using Python libraries and Streamlit.
+The machine learning model is trained using Logistic Regression and TF-IDF Vectorization. Visualizations such as sentiment distribution and WordClouds are used to analyze customer opinions effectively.
+This project helps businesses understand customer behavior and make better decisions using data-driven insights.
+
+INTRODUCTION:
+Customer reviews and feedback are valuable sources of information for businesses. Companies receive large amounts of feedback through websites, applications, and social media platforms. Analyzing these reviews manually is inefficient.
+Sentiment Analysis is a Natural Language Processing (NLP) technique used to identify emotions and opinions from textual data. This project focuses on classifying customer feedback into positive and negative sentiments using machine learning algorithms.
+The project automates the process of customer review analysis and provides visual insights through charts and dashboards.
+
+OBJECTIVES
+
+The main objectives of this project are:
+
+To analyze customer feedback data.
+To clean and preprocess textual data.
+To perform sentiment classification using machine learning.
+To visualize customer sentiment trends.
+To create an interactive dashboard for prediction and analysis.
+To improve understanding of customer satisfaction.
+
+PROBLEM STATEMENT
+
+Businesses receive large volumes of customer feedback daily. Analyzing these reviews manually requires significant time and effort. There is a need for an automated system that can classify reviews into positive and negative sentiments accurately.
+
+This project solves this problem by implementing a machine learning-based sentiment analysis system.
+
+DATASET INFORMATION
+
+Dataset Name:
+Women’s E-Commerce Clothing Reviews Dataset
+
+Dataset Source:
+Kaggle
+
+Dataset Link:
+
+Kaggle Dataset Download Page
+
+Dataset Features:
+
+Review Text
+Rating
+Age
+Department Name
+Class Name
+Positive Feedback Count
+
+Used Columns:
+
+Review Text
+Rating
+TECHNOLOGIES USED
+Technology	Purpose
+Python	        Programming Language
+Pandas	        Data Handling
+NumPy	        Numerical Operations
+NLTK	        Text Processing
+Scikit-learn	Machine Learning
+Matplotlib	Data Visualization
+Seaborn	        Statistical Visualization
+WordCloud	Text Visualization
+Streamlit	Dashboard Creation
+
+SYSTEM REQUIREMENTS
+Hardware Requirements
+Processor: Intel i3 or above
+RAM: 4 GB minimum
+Storage: 1 GB free space
+Software Requirements
+Python 3.x
+Jupyter Notebook / VS Code
+Streamlit
+Required Python Libraries
+
+METHODOLOGY
+
+The project follows the following steps:
+
+Data Collection
+Data Cleaning
+Text Preprocessing
+Feature Extraction
+Model Training
+Model Evaluation
+Data Visualization
+Dashboard Development
+Sentiment Prediction
+
+DATA CLEANING:
+Data cleaning is performed to improve data quality.
+
+Steps performed:
+
+Removed null values
+Removed duplicate values
+Converted text to lowercase
+Removed punctuation and special characters
+Removed stopwords
+Applied lemmatization
+
+Example:
+
+Original Text:
+"The product was AMAZING!!!"
+Cleaned Text:
+"product amazing"
+
+TEXT PREPROCESSING:
+
+Text preprocessing converts raw text into machine-readable format.
+
+Techniques used:
+
+Tokenization
+Stopword Removal
+Lemmatization
+Regular Expressions
+
+Libraries used:
+
+nltk
+re
+FEATURE EXTRACTION
+
+TF-IDF Vectorization is used to convert text into numerical vectors.
+
+Advantages:
+
+Identifies important words
+Reduces effect of common words
+Improves model performance
+
+TF-IDF Formula:
+
+TF-IDF(t,d)=TF(t,d)×IDF(t)
+
+MACHINE LEARNING MODEL:
+
+The project uses Logistic Regression for sentiment classification.
+
+Advantages:
+
+Simple and efficient
+Good accuracy for text classification
+Fast training process
+
+Model Workflow:
+
+Train model using training dataset
+Predict sentiment using test dataset
+Evaluate model accuracy
+
+MODEL EVALUATION
+
+Evaluation metrics used:
+
+Accuracy Score
+Precision
+Recall
+F1-Score
+Confusion Matrix
+
+Accuracy Formula:
+
+Accuracy=
+TP+TN+FP+FN
+TP+TN
+Where:
+
+TP = True Positive
+TN = True Negative
+FP = False Positive
+FN = False Negative
+
+DATA VISUALIZATION:
+
+Visualizations used in the project:
+
+Sentiment Distribution Graph
+Rating Histogram
+WordCloud
+Confusion Matrix
+
+Benefits:
+
+Easy understanding of customer opinions
+Better analysis of trends
+Improved business insights
+
+
+WORKFLOW DIAGRAM
+Customer Reviews
+        ↓
+Data Cleaning
+        ↓
+Text Preprocessing
+        ↓
+TF-IDF Vectorization
+        ↓
+Model Training
+        ↓
+Sentiment Prediction
+        ↓
+Visualization Dashboard
+
+
+SAMPLE INPUT AND OUTPUT
+Input Review
+"The product quality is excellent and delivery was fast."
+Output
+Positive Sentiment 😊
+
+
+ADVANTAGES
+Automated sentiment analysis
+Saves time and effort
+Easy to use dashboard
+Real-time prediction
+Better customer understanding
+Helps business decision-making
+
+LIMITATIONS
+Accuracy depends on dataset quality
+Cannot fully understand sarcasm
+Limited to English language reviews
+Requires preprocessing for better performance
+
+FUTURE ENHANCEMENT
+
+Future improvements can include:
+
+Multi-class sentiment classification
+Deep Learning models (LSTM, BERT)
+Real-time social media analysis
+Multilingual sentiment analysis
+Voice feedback analysis
+
+APPLICATIONS
+
+E-commerce websites
+Product review analysis
+Customer service analysis
+Social media monitoring
+Brand reputation management
+
+CONCLUSION
+
+The Customer Feedback Sentiment Analysis project successfully classifies customer reviews into positive and negative sentiments using machine learning techniques. The project demonstrates the use of NLP, data visualization, and dashboard development for business analytics.
+
+The system helps organizations analyze customer opinions efficiently and supports better business decisions through automated sentiment prediction.
